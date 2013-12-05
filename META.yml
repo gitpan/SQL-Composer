@@ -28,7 +28,7 @@ no_index:
 provides:
   SQL::Composer:
     file: lib/SQL/Composer.pm
-    version: 0.02
+    version: 0.03
   SQL::Composer::Delete:
     file: lib/SQL/Composer/Delete.pm
   SQL::Composer::Expression:
@@ -49,6 +49,6 @@ resources:
   bugtracker: https://github.com/vti/sql-composer/issues
   homepage: https://github.com/vti/sql-composer
   repository: git://github.com/vti/sql-composer.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'vti <viacheslav.t@gmail.com>'
