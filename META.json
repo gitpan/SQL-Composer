@@ -55,7 +55,7 @@
    "provides" : {
       "SQL::Composer" : {
          "file" : "lib/SQL/Composer.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "SQL::Composer::Delete" : {
          "file" : "lib/SQL/Composer/Delete.pm"
@@ -90,7 +90,7 @@
          "web" : "https://github.com/vti/sql-composer"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "vti <viacheslav.t@gmail.com>"
    ]
