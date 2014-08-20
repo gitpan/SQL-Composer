@@ -1,5 +1,9 @@
 Revision history for Perl extension SQL-Composer
 
+0.07 2014-08-20T13:59:30Z
+
+    - support as is with bind values in update
+
 0.06 2014-02-19T13:05:00Z
 
     - support group_by as is
