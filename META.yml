@@ -3,17 +3,15 @@ abstract: 'sql builder'
 author:
   - 'Viacheslav Tykhanovskyi'
 build_requires:
-  Test::More: 0.98
+  Test::More: '0.98'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v0.14.1, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: SQL-Composer
 no_index:
   directory:
@@ -28,34 +26,27 @@ no_index:
 provides:
   SQL::Composer:
     file: lib/SQL/Composer.pm
-    version: 0.07
+    version: '0.08'
   SQL::Composer::Delete:
     file: lib/SQL/Composer/Delete.pm
-    version: 0
   SQL::Composer::Expression:
     file: lib/SQL/Composer/Expression.pm
-    version: 0
   SQL::Composer::Insert:
     file: lib/SQL/Composer/Insert.pm
-    version: 0
   SQL::Composer::Join:
     file: lib/SQL/Composer/Join.pm
-    version: 0
   SQL::Composer::Quoter:
     file: lib/SQL/Composer/Quoter.pm
-    version: 0
   SQL::Composer::Select:
     file: lib/SQL/Composer/Select.pm
-    version: 0
   SQL::Composer::Update:
     file: lib/SQL/Composer/Update.pm
-    version: 0
 requires:
-  perl: 5.008001
+  perl: '5.008001'
 resources:
   bugtracker: https://github.com/vti/sql-composer/issues
   homepage: https://github.com/vti/sql-composer
   repository: git://github.com/vti/sql-composer.git
-version: 0.07
+version: '0.08'
 x_contributors:
   - 'vti <viacheslav.t@gmail.com>'
